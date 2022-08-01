@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
+    <!---Navbar toggling--->
     <script>
         jQuery(function($) {
             var $navbar = $('.navbarContainer');
@@ -22,7 +23,6 @@
             });
         });
     </script>
-
     <link rel="stylesheet" href="./css/style.css">
     <style>
         <?php include "./css/style.css" ?>
@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <!--Navbar-->
+    <!---Navbar--->
     <div class="navbarContainer">
         <div class="navbar-head">
             <h1>IONSPEC</h1>
@@ -308,6 +308,7 @@
             </div>
         </form>
     </div>
+    <!---Delivery Option input requirement--->
     <script>
         function submit_alert() {
             var confirm_select = document.getElementById("confirm_select");
@@ -337,7 +338,7 @@
                 </div>
             </div>
         </div>
-        <!--Small Videos-->
+        <!----Small Videos---->
         <div class="small_videos" id="scroll">
             <div class="small_videos_grid">
                 <div class="small_img">
@@ -386,6 +387,7 @@
             </div>
         </div>
     </div>
+    <!---Script for the appearance of videos--->
     <script>
         var myVideo = document.getElementById("myVideo");
         var overlay_video = document.querySelector(".overlay_video");
@@ -404,7 +406,7 @@
             overlay_video.classList.add("hidden");
         }
     </script>
-    <!---Footer--->
+    <!----------------------------------Footer--------------------------------->
     <footer>
         <div class="parent" id="five">
             <div class="parent-col">
@@ -459,7 +461,7 @@
             <p>Copyright &copy;2022 IonSpec. Designed By Angel Bryan Reyes</p>
         </div>
     </footer>
-    </div>
+
     <div class="readmore_article" id="scroll_readmore">
         <div class="readmore_scroll">
             <div class="readmore_content">

@@ -389,6 +389,9 @@ function showImage_B2() {
                 M100_text.classList.add("hidden");
                 M56_text.classList.add("hidden");
                 M52_text.classList.add("hidden");
+                 //Product Total Price
+                 totalPrice_M56. classList.remove("hidden"); 
+                 totalPrice_M52.classList.add("hidden");
             });
             get_product_name10.addEventListener("click", () => {
                 receive_product_name_pc1.value = socks.value;
@@ -405,6 +408,9 @@ function showImage_B2() {
                 M100_text.classList.add("hidden");
                 M56_text.classList.add("hidden");
                 M52_text.classList.add("hidden");
+                //Product Total Price
+                totalPrice_M56. classList.remove("hidden"); 
+                totalPrice_M52.classList.add("hidden");
             });
             get_product_nameB1.addEventListener("click", () => {
                 receive_product_name_pc1.value = belt.value;
@@ -441,6 +447,9 @@ function showImage_B2() {
                 M100_text.classList.add("hidden");
                 M56_text.classList.add("hidden");
                 M52_text.classList.add("hidden");
+                //Product Total Price
+                totalPrice_M56. classList.remove("hidden"); 
+                totalPrice_M52.classList.add("hidden");
             });
 
 
