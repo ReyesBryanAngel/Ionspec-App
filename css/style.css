@@ -203,6 +203,9 @@ h1{
     color: var(--color-container);
 }
 @media(min-width:500px){
+    .homepage_parent h1{
+        font-size: 3rem;
+    }
     .homepage_parent h2{
         font-size: 2rem;
     }
@@ -364,7 +367,7 @@ h1{
     }
     .readmore_article button{
         float: right;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
     }
 }
 /*--------DELIVERY OPTIONS PAGE--------*/

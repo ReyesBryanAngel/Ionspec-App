@@ -74,10 +74,10 @@ select{
         height: 35vh;
     }
     form{
-        margin-top: 5px;
+        margin-top: 8px;
     }
     form input{
-        width: 250px;
+        width: 240px;
         margin: 2px;
     }
     

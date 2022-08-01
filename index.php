@@ -80,7 +80,7 @@
             <div class="homepage">
                 <h1>The Eye Glass That</h1>
                 <h2>Makes You Feel Awesome</h2>
-                <a href="#three"><button>View Eye Glasses</button></a>
+                <a href="#three"><button>View Products</button></a>
             </div>
         </div>
     </div>
@@ -117,7 +117,7 @@
     </div>
 
     <!--Products Page-->
-    <h1 class="products_head" id="three">MGI EYE GLASSES</h1>
+    <h1 class="products_head" id="three">MGI PRODUCTS</h1>
     <div class="products_wrapper">
         <div class="products_container">
             <img src="./model_images/Apic1.jpg" alt=""><br>
