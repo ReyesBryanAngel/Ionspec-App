@@ -12,6 +12,7 @@ body{
     --font-size:1.5rem;
     --head-size:2.5rem;
 }
+/*-----Overlay of the Page-----*/
 .overlay_video{
     position: fixed;
     top: 0;
@@ -68,7 +69,7 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none; 
   margin: 0; 
 }
-/*--Navbar--*/
+/*--------Navbar--------*/
 .navbarContainer{
     width: 100%;
     position: fixed;
@@ -165,7 +166,7 @@ h1{
     text-align: center;
     font-size: 16px;
 }
-/*---HOME PAGE--*/
+/*--------HOME PAGE-------*/
 .homepage_parent{
     text-align: center;
     justify-content: center;
@@ -186,6 +187,9 @@ h1{
 .homepage_parent{
     color: var(--color-container);
 }
+.homepage_parent h1{
+    font-size: 2.1rem;
+}
 .homepage_parent h2{
     font-size: 1.4rem;
 }
@@ -198,7 +202,6 @@ h1{
     width: 14rem;
     color: var(--color-container);
 }
-
 @media(min-width:500px){
     .homepage_parent h2{
         font-size: 2rem;
@@ -216,7 +219,7 @@ h1{
         font-size: 3.5rem;
     }
 }
-/*---ABOUT US PAGE--*/
+/*--------ABOUT US PAGE--------*/
 #two{
     font-size: 1.7rem;
     margin-top: 2rem;
@@ -241,6 +244,7 @@ h1{
     padding: 5px;
     color: var(--color-container);
 }
+/*--------Product Benefits information--------*/
 .readmore_article{
     height: 75vh;
     width: 90%;
@@ -363,7 +367,7 @@ h1{
         margin-bottom: 2rem;
     }
 }
-/*---BENEFITS PAGE--*/
+/*--------DELIVERY OPTIONS PAGE--------*/
 .items_wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
@@ -386,7 +390,7 @@ h1{
     margin-top: .7rem;
 }
 
-/*---NEW ARRIVAL PAGE--*/
+/*--------PRODUCTS PAGE-------*/
 .products_head{
     margin-top: 2rem;
     font-size: 1.7rem;
@@ -738,7 +742,7 @@ h1{
     }
 }
 
-/*---VIDEOS PAGE--*/
+/*--------VIDEOS PAGE-------*/
 .videos_head{
     margin-top: 2rem;
     font-size: 1.7rem;
@@ -755,7 +759,7 @@ h1{
     margin: auto;
 }
 .main_video img{
-    width: 325px;   
+    width: 300px;   
 }
 .main_playButton{
     grid-row-start: 2;
@@ -782,11 +786,11 @@ h1{
     bottom: 8rem;
 }
 .videoPlayer video{
-    width: 330px;
+    width: 300px;
 }
 .videoPlayer button{     
     color: var(--color-container);
-    margin-left: 19rem;
+    margin-left: 17rem;
     width: 30px;
     height: 30px;
     border-radius: 15px;
