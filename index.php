@@ -328,7 +328,7 @@
                 <img src="./pictures/main_thumbnail.PNG" alt="">
             </div>
             <div class="main_playButton">
-                <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/testimony_1.mp4')"></i>
+                <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/video.mp4')"></i>
             </div>
             <!---------VideoPlayer-------->
             <div class="videoPlayer">
