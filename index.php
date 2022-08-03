@@ -342,48 +342,52 @@
         <div class="small_videos" id="scroll">
             <div class="small_videos_grid">
                 <div class="small_img">
-                    <img src="./pictures/testimony.jpg" alt="">
+                    <img src="./pictures/argela.PNG" alt="">
                 </div>
                 <div class="small_playButton">
                     <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/testimony_2.mp4')"></i>
                 </div>
-                <span>Argela B. Eguia was having a problem with her sight and vomitting for over 2 decades until she used ionspec for 2 weeks.</span>
+                <h3>Argela B. Eguia</h3>
             </div>
+
             <div class="small_videos_grid">
                 <div class="small_img">
-                    <img src="./pictures/testimony.jpg" alt="">
+                    <img src="./pictures/loleng.PNG" alt="">
                 </div>
                 <div class="small_playButton">
                     <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/testimony_3.mp4')"></i>
                 </div>
-                <span>Tita Loleng's testimony on how ionspec makes her eye clearer inspite of operated.</span>
+                <h3>Tita Loleng</h3>
             </div>
+
             <div class="small_videos_grid">
                 <div class="small_img">
-                    <img src="./pictures/testimony.jpg" alt="">
+                    <img src="./pictures/liza.PNG" alt="">
                 </div>
                 <div class="small_playButton">
                     <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/testimony_5.mp4')"></i>
                 </div>
-                <span> Liza Hernandez is satisfied customer who felt the effect of Ionspec after 3 weeks.</span>
+                <h3>Liza Hernandez</h3>
             </div>
+
             <div class="small_videos_grid">
                 <div class="small_img">
-                    <img src="./pictures/testimony.jpg" alt="">
+                    <img src="./pictures/janet.PNG" alt="">
                 </div>
                 <div class="small_playButton">
                     <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/testimony_7.mp4')"></i>
                 </div>
-                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                <h3>Jannette Casanova</h3>
             </div>
+
             <div class="small_videos_grid">
                 <div class="small_img">
-                    <img src="./pictures/testimony.jpg" alt="">
+                    <img src="./pictures/cataract_patient.PNG" alt="">
                 </div>
                 <div class="small_playButton">
                     <i class="fa-solid fa-play fa-2x mobile" onclick="playVideo_mobile('testimonies/testimony2.mp4')"></i>
                 </div>
-                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                <h3>Cataract Patient</h3>
             </div>
         </div>
     </div>

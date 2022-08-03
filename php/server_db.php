@@ -29,9 +29,11 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             <span>Hello, <?php echo $_SESSION['name']; ?></span>
             <a href="login.php">Logout</a>
         </div>
-        <form action="add.php">
-            <button class="add_data">Add Data</button>
-        </form>
+        <div class="flex_function">
+            <form action="add.php">
+                <button class="add_data">Add Data</button>
+            </form>
+        </div>
         <table>
             <thead>
                 <th>I.D</th>
