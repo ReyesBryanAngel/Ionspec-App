@@ -203,7 +203,7 @@
             <img style="height:38vh;" class="hover-img" src="./cropped/Apic9_cropped.jpg">
             <input readonly type="text" value="MGI NANO STIRRER" name="#" id="stirrer">
             <div class="price">
-                <span>P7,800</span>
+                <span>P4,875</span>
                 <i onclick="showImage_9()" class="fa-solid fa-cart-shopping open_abclass9" id="get_product_name9"></i>
             </div>
         </div>
@@ -284,6 +284,7 @@
                         <span>₱</span>
                         <input id="totalPrice_M52" class="hidden" type="number" name="price" style="width:90px" value="3900" readonly>
                         <input id="totalPrice_M56" class="hidden" type="number" name="price" style="width:90px" value="7800" readonly>
+                        <input id="totalPrice_stirrer" class="hidden" type="number" name="price" style="width:90px" value="4875" readonly>
                     </div>
                     <div class="quantity_increment">
                         <div class="col-md-4">

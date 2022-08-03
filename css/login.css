@@ -24,9 +24,6 @@ body{
     border-radius: var(--border-radius);
     background:#ffffff;
 }
-.form--hidden{
-    display: none;
-}
 .container,
 .form--input,
 .form--button{
@@ -48,9 +45,6 @@ body{
     background: #f2DEDE;
     color: #A94442;
     padding: 10px;
-}
-.form_message-success{
-    color: var(--color-success);
 }
 .form_message-error{
     color: var(--color-error);
