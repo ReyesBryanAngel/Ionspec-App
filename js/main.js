@@ -5,6 +5,7 @@
         var total_M52 = document.getElementById('totalPrice_M52');
         var total_M56 = document.getElementById('totalPrice_M56');
         var total_stirrer = document.getElementById('totalPrice_stirrer');
+        var total_socks = document.getElementById('totalPrice_socks');
         var orderQuantity_mobile;
 
         //Increment Button
@@ -15,6 +16,7 @@
             total_M52.value = parseInt(total_M52.value) + 3900;
             total_M56.value = parseInt(total_M56.value) + 7800;
             total_stirrer.value = parseInt(total_stirrer.value) + 4875;
+            total_socks.value = parseInt (total_socks.value) + 1950;
 
             if (orderQuantity_mobile > 1) {
                 document.querySelector(".decrement-btn").removeAttribute("disabled");
@@ -29,6 +31,7 @@
             total_M52.value = parseInt(total_M52.value) - 3900;
             total_M56.value = parseInt(total_M56.value) - 7800;
             total_stirrer.value = parseInt(total_stirrer.value) - 4875;
+            total_socks.value = parseInt (total_socks.value) - 1950;
             if (orderQuantity_mobile == 1) {
                 document.querySelector(".decrement-btn").setAttribute("disabled", "disabled");
             }
@@ -40,6 +43,7 @@
      var total_M52 = document.querySelector('#totalPrice_M52');
      var total_M56 = document.querySelector('#totalPrice_M56');
      var total_stirrer = document.querySelector('#totalPrice_stirrer');
+     var total_socks = document.querySelector('#totalPrice_socks');
      var orderQuantity_mobile = document.getElementById("orderQuantity_mobile");
      var decrement_btn = document.querySelector(".decrement-btn");
 
@@ -110,6 +114,7 @@
          total_M52.value = 3900;
          total_M56.value = 7800;
          total_stirrer.value = 4875;
+         total_socks.value = 1950;
      });
      overlay.addEventListener("click", () => {
          modal.classList.remove('active');
@@ -118,6 +123,7 @@
          total_M52.value = 3900;
          total_M56.value = 7800;
          total_stirrer.value = 4875;
+         total_socks.value = 1950;
      });
  });
 
@@ -204,6 +210,7 @@ function showImage_B2() {
             const totalPrice_M52 = document.querySelector("#totalPrice_M52");
             const totalPrice_M56 = document.querySelector("#totalPrice_M56");
             const totalPrice_stirrer = document.querySelector("#totalPrice_stirrer");
+            const totalPrice_socks = document.querySelector("#totalPrice_socks");
                 
             //button for getting products
             const get_product_name = document.getElementById("get_product_name1");
@@ -243,7 +250,8 @@ function showImage_B2() {
                 //Product Total Price
                 totalPrice_M52.classList.remove("hidden"); 
                 totalPrice_M56. classList.add("hidden");  
-                totalPrice_stirrer.classList.add("hidden");      
+                totalPrice_stirrer.classList.add("hidden"); 
+                totalPrice_socks.classList.add("hidden");      
             });
             get_product_name2.addEventListener("click", () => {
                 //Product name
@@ -266,6 +274,7 @@ function showImage_B2() {
                 totalPrice_M56. classList.remove("hidden"); 
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden");
+                totalPrice_socks.classList.add("hidden"); 
             });
             get_product_name3.addEventListener("click", () => {
                 //Product name
@@ -287,7 +296,8 @@ function showImage_B2() {
                 //Product Total Price
                 totalPrice_M56. classList.remove("hidden"); 
                 totalPrice_M52.classList.add("hidden");
-                totalPrice_stirrer.classList.add("hidden");           
+                totalPrice_stirrer.classList.add("hidden");
+                totalPrice_socks.classList.add("hidden");            
             });
             get_product_name4.addEventListener("click", () => {
                 receive_product_name_pc1.value = M37B_BLACK_PURPLE.value;
@@ -307,7 +317,8 @@ function showImage_B2() {
                 //Product Total Price
                 totalPrice_M56.classList.add("hidden"); 
                 totalPrice_M52.classList.remove("hidden"); 
-                totalPrice_stirrer.classList.add("hidden");            
+                totalPrice_stirrer.classList.add("hidden"); 
+                totalPrice_socks.classList.add("hidden");            
             });
             get_product_name5.addEventListener("click", () => {
                 receive_product_name_pc1.value = M38B_BLACK_RED.value;
@@ -327,7 +338,8 @@ function showImage_B2() {
                 //Product Total Price
                 totalPrice_M56.classList.add("hidden"); 
                 totalPrice_M52.classList.remove("hidden");
-                totalPrice_stirrer.classList.add("hidden");                             
+                totalPrice_stirrer.classList.add("hidden");   
+                totalPrice_socks.classList.add("hidden");                           
             });
             get_product_name6.addEventListener("click", () => {
                 receive_product_name_pc1.value = M38B_BLACK_PURPLE.value;
@@ -347,7 +359,8 @@ function showImage_B2() {
                 //Product Total Price
                 totalPrice_M56.classList.add("hidden"); 
                 totalPrice_M52.classList.remove("hidden");  
-                totalPrice_stirrer.classList.add("hidden");                        
+                totalPrice_stirrer.classList.add("hidden");  
+                totalPrice_socks.classList.add("hidden");                       
             });
             get_product_name7.addEventListener("click", () => {
                 receive_product_name_pc1.value = M37B_BLACK_RED.value;
@@ -368,6 +381,7 @@ function showImage_B2() {
                 totalPrice_M56.classList.add("hidden"); 
                 totalPrice_M52.classList.remove("hidden"); 
                 totalPrice_stirrer.classList.add("hidden");     
+                totalPrice_socks.classList.add("hidden"); 
             });
             get_product_name8.addEventListener("click", () => {
                 receive_product_name_pc1.value = HOSPITALSERIES_M58.value;
@@ -388,6 +402,7 @@ function showImage_B2() {
                 totalPrice_M56. classList.remove("hidden"); 
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden");
+                totalPrice_socks.classList.add("hidden"); 
             });
             get_product_name9.addEventListener("click", () => {
                 receive_product_name_pc1.value = stirrer.value;
@@ -408,6 +423,7 @@ function showImage_B2() {
                  totalPrice_stirrer.classList.remove("hidden");
                  totalPrice_M56.classList.add("hidden"); 
                  totalPrice_M52.classList.add("hidden");
+                 totalPrice_socks.classList.add("hidden"); 
             });
             get_product_name10.addEventListener("click", () => {
                 receive_product_name_pc1.value = socks.value;
@@ -425,7 +441,7 @@ function showImage_B2() {
                 M56_text.classList.add("hidden");
                 M52_text.classList.add("hidden");
                 //Product Total Price
-                totalPrice_M56. classList.remove("hidden"); 
+                totalPrice_socks.classList.remove("hidden"); 
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden");
             });
@@ -448,6 +464,7 @@ function showImage_B2() {
                 totalPrice_M56. classList.remove("hidden"); 
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden");
+                totalPrice_socks.classList.add("hidden"); 
                 
             });
             get_product_nameB2.addEventListener("click", () => {
@@ -466,9 +483,10 @@ function showImage_B2() {
                 M56_text.classList.add("hidden");
                 M52_text.classList.add("hidden");
                 //Product Total Price
-                totalPrice_M56. classList.remove("hidden"); 
+                totalPrice_socks.classList.remove("hidden");
+                totalPrice_M56. classList.add("hidden"); 
                 totalPrice_M52.classList.add("hidden");
-                totalPrice_stirrer.classList.add("hidden");
+                totalPrice_stirrer.classList.add("hidden"); 
             });
 
 

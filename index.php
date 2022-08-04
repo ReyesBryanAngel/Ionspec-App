@@ -213,7 +213,7 @@
             <img style="height:38vh;" class="hover-img" src="./cropped/Apic10_cropped.jpg">
             <input readonly type="text" value="NANO HEALTH SOCKS" name="#" id="socks">
             <div class="price">
-                <span>P7,800</span>
+                <span>P1,950</span>
                 <i onclick="showImage_10()" class="fa-solid fa-cart-shopping open_abclass10" id="get_product_name10"></i>
             </div>
         </div>
@@ -233,7 +233,7 @@
             <img style="height:38vh;" class="hover-img" src="./cropped/Bpic2_cropped.jpg">
             <input readonly type="text" value="MGI NANO TOPI" name="#" id="topi">
             <div class="price">
-                <span>P7,800</span>
+                <span>P1,950</span>
                 <i onclick="showImage_B2()" class="fa-solid fa-cart-shopping Bopen_abclass2" id="get_product_nameB2"></i>
             </div>
         </div>
@@ -285,6 +285,7 @@
                         <input id="totalPrice_M52" class="hidden" type="number" name="price" style="width:90px" value="3900" readonly>
                         <input id="totalPrice_M56" class="hidden" type="number" name="price" style="width:90px" value="7800" readonly>
                         <input id="totalPrice_stirrer" class="hidden" type="number" name="price" style="width:90px" value="4875" readonly>
+                        <input id="totalPrice_socks" class="hidden" type="number" name="price" style="width:90px" value="1950" readonly>
                     </div>
                     <div class="quantity_increment">
                         <div class="col-md-4">
