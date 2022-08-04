@@ -8,7 +8,7 @@
     <style>
         <?php include "../css/edit.css" ?>
     </style>
-    <title>Document</title>
+    <title>EDIT DATA</title>
 </head>
 
 <body>

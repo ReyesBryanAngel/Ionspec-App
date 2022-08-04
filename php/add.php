@@ -8,7 +8,7 @@
     <style>
         <?php include "../css/add.css" ?>
     </style>
-    <title>Document</title>
+    <title>ADD DATA</title>
 </head>
 
 <body>

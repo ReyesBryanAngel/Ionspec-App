@@ -27,7 +27,7 @@
     <style>
         <?php include "./css/style.css" ?>
     </style>
-    <title>IONIZE EYEWARE</title>
+    <title>IONSPEC</title>
 </head>
 
 <body>
