@@ -442,6 +442,7 @@ function showImage_B2() {
                 M52_text.classList.add("hidden");
                 //Product Total Price
                 totalPrice_socks.classList.remove("hidden"); 
+                totalPrice_M56.classList.add("hidden");
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden");
             });
