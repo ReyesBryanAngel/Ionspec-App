@@ -444,6 +444,7 @@ function showImage_B2() {
                 totalPrice_socks.classList.remove("hidden"); 
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden");
+                totalPrice_M56. classList.add("hidden"); 
             });
             get_product_nameB1.addEventListener("click", () => {
                 receive_product_name_pc1.value = belt.value;
