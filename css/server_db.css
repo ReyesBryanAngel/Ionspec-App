@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.useraccount{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 .5rem 0;
+    position: relative;
+
+}
+.useraccount span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.useraccount a{
+    padding: 8px;
+    background-color:#009579;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    height: 20px;
+    font-size: 1rem;
+}
+.flex_function{
+    display: flex;
+    justify-content: space-between;
+}
+.add_data{
+    background-color: #009579;
+    color: #ffff;
+    padding:9px;
+    border: none;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    margin-right: .7rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+i{
+    cursor: pointer;
+}
+.delete{
+    color: red;
+}
+.edit{
+    color: darkblue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 1rem;
+}
+table td, table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+table th{
+    background-color: #009579;
+    color: #ffffff;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+@media(max-width:500px){
+    .box{
+        width: 170px;
+    }
+    .box > input{
+        width: 130px;
+    }
+    table thead{
+        display: none;
+    }
+    table, table tbody, table tr, table td{
+        display: block;
+        width: 98%;
+    }
+    table tr{
+        margin-bottom: 40px;
+       
+    }
+    table td{
+        text-align: right;
+        font-size: .8rem;
+        position: relative;
+    }
+    table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left:10px;
+        text-align: left;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
