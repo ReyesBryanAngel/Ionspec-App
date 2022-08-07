@@ -34,7 +34,7 @@
     <!---Navbar--->
     <div class="navbarContainer">
         <div class="navbar-head">
-            <h1>My Name</h1>
+            <h1>IONSPEC</h1>
         </div>
         <a href="#" data-toggle="collapse" data-target="#collapsible">
             <nav class="toggle-button">
