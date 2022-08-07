@@ -8,7 +8,7 @@ $productname = $_POST['productname'];
 $order_quantity = $_POST['order_quantity'];
 $price = $_POST['price'];
 
-$conn = new mysqli('localhost', 'root', '', 'may_db');
+$conn = new mysqli('x71wqc4m22j8e3ql.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 's8z1rccahkocpqs7', 'c6kdlysaxjk60wa4', 'ueihmh18ojbfew0f');
 
 if ($conn->connect_error) {
     die('Connection Failed : ' . $conn->connect_error);
