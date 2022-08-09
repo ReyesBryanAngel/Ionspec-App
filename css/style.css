@@ -80,6 +80,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--color-wrapper);
 }
 .navbar-head h1{
     font-size: 1.3rem;
@@ -132,10 +133,6 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .navbar-head h1{
         font-size: 1.5rem;
-    }
-    .navbar_color{
-        background: var(--color-wrapper);
-        transition: 400ms ease-in-out;
     }
     .collapse-parent{
         display: none;
