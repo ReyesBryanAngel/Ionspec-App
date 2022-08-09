@@ -1,4 +1,4 @@
-window.onload = () =>{
+window.addEventListener = () =>{
     filterProduct('All');
 }
 //products
