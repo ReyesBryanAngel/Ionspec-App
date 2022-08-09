@@ -1,7 +1,6 @@
-window.addEventListener = () =>{
-    filterProduct('All');
-}
 //products
+window.onload = () =>{filterProduct('All');
+}
 function filterProduct(value){
     let buttons = document.querySelectorAll(".button_value");
     buttons.forEach((button) =>{
@@ -41,7 +40,7 @@ function filterProduct(value){
         })
     });
 }
- 
+
  //variables and selectors for total price function 
  document.querySelector(".decrement-btn").setAttribute("disabled", "disabled");
     //ID of total prices of each product
