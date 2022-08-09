@@ -1,4 +1,47 @@
+//products
+function filterProduct(value){
+    let buttons = document.querySelectorAll(".button_value");
+    buttons.forEach((button) =>{
+        if(value.toUpperCase() == button.innerText.toUpperCase()){
+            button.classList.add("active");
+        }
+        else{
+            button.classList.remove("active");
+        }
+    });
+    //select all cards
+    let elements = document.querySelectorAll(".products_container");
+    elements.forEach((element) => {
+        if(value == 'All'){
+            element.classList.remove("hidden");
+        } else {
+            if(element.classList.contains(value)){
+                element.classList.remove("hidden");
+            } else {
+                element.classList.add("hidden");
+            }
+        }
+    });
+    //search function
+    document.getElementById("search").addEventListener("click", () =>{
+        let searchinput = document.getElementById("search_input").value;
+        let elements = document.querySelectorAll(".product_name");
+        let products_container = document.querySelectorAll(".products_container");;
 
+        elements.forEach((element,index) =>{
+            if(element.value.includes(searchinput.toUpperCase())){
+                products_container[index].classList.remove("hidden");
+            }
+            else{
+                products_container[index].classList.add("hidden");
+            }
+        })
+    });
+}
+window.onload = () =>{
+    filterProduct('All');
+}
+ 
  //variables and selectors for total price function 
  document.querySelector(".decrement-btn").setAttribute("disabled", "disabled");
     //ID of total prices of each product
@@ -488,9 +531,5 @@ function showImage_B2() {
                 totalPrice_M56. classList.add("hidden"); 
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden"); 
-            });
+            });           
 
-
-
-           
-;

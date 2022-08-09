@@ -116,122 +116,134 @@
         </div>
     </div>
 
+    <div class="search-wrapper">
+        <div class="search_container">
+            <input type="search" id="search_input" placeholder="Please search an Item...">
+            <button id="search">Search</button>
+        </div>
+        <span id="invalid_search" class="hidden" style="color:red;">No item found</span>
+    </div>
+    <div class="buttons">
+        <button onclick="filterProduct('All')" class="button_value">All</button>
+        <button onclick="filterProduct('EyeGlasses')" class="button_value">EyeGlasses</button>
+        <button onclick="filterProduct('OtherProducts')" class="button_value"> OtherProducts</button>
+    </div>
     <!--Products Page-->
     <h1 class="products_head" id="three">MGI PRODUCTS</h1>
     <div class="products_wrapper">
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic1.jpg" alt=""><br>
             <img style="height:30vh;" class="hover-img" src="./cropped/Apic1_cropped.jpg">
-            <input readonly type="text" value="M52 BLACK" name="#" id="M52 BLACK">
+            <input readonly type="text" class="product_name" value="M52 BLACK" name="#" id="M52 BLACK">
             <div class="price">
                 <span>P3,900</span>
                 <i id="get_product_name1" onclick="showImage_1()" class="fa-solid fa-cart-shopping open_abclass1"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic2.jpg" alt=""><br>
             <img style="height:30vh;" class="hover-img" src="./cropped/Apic2_cropped.jpg">
-            <input readonly type="text" value="HOSPITAL SERIES M56" name="#" id="M9002 BLACK/BLUE">
+            <input readonly type="text" class="product_name" value="HOSPITAL SERIES M56" name="#" id="M9002 BLACK/BLUE">
             <div class="price">
                 <span>P7,800</span>
                 <i id="get_product_name2" onclick="showImage_2()" class="fa-solid fa-cart-shopping open_abclass2"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic3.jpg" alt=""><br>
             <img style="height:27vh;" class="hover-img" src="./cropped/Apic3_cropped.jpg">
-            <input readonly type="text" value="M100 BLACK/WHITE" name="#" id="M37 YELLOW/BLACK">
+            <input readonly type="text" class="product_name" value="M100 BLACK/WHITE" name="#" id="M37 YELLOW/BLACK">
             <div class="price">
                 <span>P7,800</span>
                 <i id="get_product_name3" onclick="showImage_3()" class="fa-solid fa-cart-shopping open_abclass3"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic4.jpg" alt=""><br>
             <img style="height:26vh;" class="hover-img" src="./cropped/Apic4_cropped.jpg">
-            <input readonly type="text" value="M37B BLACK/PURPLE" name="#" id="M37B/C BLACK/PURPLE">
+            <input readonly type="text" class="product_name" value="M37B BLACK/PURPLE" name="#" id="M37B/C BLACK/PURPLE">
             <div class="price">
                 <span>P3,900</span>
                 <i id="get_product_name4" onclick="showImage_4()" class="fa-solid fa-cart-shopping open_abclass4"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic5.jpg" alt=""><br>
             <img style="height:26vh;" class="hover-img" src="./cropped/Apic5_cropped.jpg">
-            <input readonly type="text" value="M38B BLACK/RED" name="#" id="M38B/C BLACK/RED">
+            <input readonly type="text" class="product_name" value="M38B BLACK/RED" name="#" id="M38B/C BLACK/RED">
             <div class="price">
                 <span>P3,900</span>
                 <i id="get_product_name5" onclick="showImage_5()" class="fa-solid fa-cart-shopping open_abclass5"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic6.jpg" alt=""><br>
             <img style="height:27vh;" class="hover-img" src="./cropped/Apic6_cropped.jpg">
-            <input readonly type="text" value="M38B BLACK/PURPLE" name="#" id="M38B/C BLACK/PURPLE">
+            <input readonly type="text" class="product_name" value="M38B BLACK/PURPLE" name="#" id="M38B/C BLACK/PURPLE">
             <div class="price">
                 <span>P3,900</span>
                 <i id="get_product_name6" onclick="showImage_6()" class="fa-solid fa-cart-shopping open_abclass6"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic7.jpg" alt=""><br>
             <img class="hover-img" src="./cropped/Apic7_cropped.jpg">
-            <input readonly type="text" value="M37B BLACK/RED" name="#" id="M37B/C BLACK/RED">
+            <input readonly type="text" class="product_name" value="M37B BLACK/RED" name="#" id="M37B/C BLACK/RED">
             <div class="price">
                 <span>P3,900</span>
                 <i id="get_product_name7" onclick="showImage_7()" class="fa-solid fa-cart-shopping open_abclass7"></i>
             </div>
         </div>
-        <div class="products_container">
+        <div class="products_container EyeGlasses hidden">
             <img src="./model_images/Apic9.jpg" alt=""><br>
             <img class="hover-img" src="./cropped/Apic8_cropped.jpg">
-            <input readonly type="text" value="HOSPITAL SERIES M58" name="#" id="HOSPITALSERIES_M58">
+            <input readonly type="text" class="product_name" value="HOSPITAL SERIES M58" name="#" id="HOSPITALSERIES_M58">
             <div class="price">
                 <span>P7,800</span>
                 <i id="get_product_name8" onclick="showImage_8()" class="fa-solid fa-cart-shopping open_abclass8"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container OtherProducts hidden">
             <img src="./other products/Aprod1.jpg" alt=""><br>
             <img style="height:38vh;" class="hover-img" src="./cropped/Apic9_cropped.jpg">
-            <input readonly type="text" value="MGI NANO STIRRER" name="#" id="stirrer">
+            <input readonly type="text" class="product_name" value="MGI NANO STIRRER" name="#" id="stirrer">
             <div class="price">
                 <span>P4,875</span>
                 <i onclick="showImage_9()" class="fa-solid fa-cart-shopping open_abclass9" id="get_product_name9"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container OtherProducts hidden">
             <img src="./other products/Aprod2.jpg" alt=""><br>
             <img style="height:38vh;" class="hover-img" src="./cropped/Apic10_cropped.jpg">
-            <input readonly type="text" value="NANO HEALTH SOCKS" name="#" id="socks">
+            <input readonly type="text" class="product_name" value="NANO HEALTH SOCKS" name="#" id="socks">
             <div class="price">
                 <span>P1,950</span>
                 <i onclick="showImage_10()" class="fa-solid fa-cart-shopping open_abclass10" id="get_product_name10"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container OtherProducts hidden">
             <img src="./other products/Aprod3.jpg" alt=""><br>
             <img style="height:38vh;" class="hover-img" src="./cropped/Bpic1_cropped.jpg">
-            <input readonly type="text" value="MGI NANO BELT" name="#" id="belt">
+            <input readonly type="text" class="product_name" value="MGI NANO BELT" name="#" id="belt">
             <div class="price">
                 <span>P7,800</span>
                 <i onclick="showImage_B1()" class="fa-solid fa-cart-shopping Bopen_abclass1" id="get_product_nameB1"></i>
             </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container OtherProducts hidden">
             <img src="./other products/Aprod4.jpg" alt=""><br>
             <img style="height:38vh;" class="hover-img" src="./cropped/Bpic2_cropped.jpg">
-            <input readonly type="text" value="MGI NANO TOPI" name="#" id="topi">
+            <input readonly type="text" class="product_name" value="MGI NANO TOPI" name="#" id="topi">
             <div class="price">
                 <span>P1,950</span>
                 <i onclick="showImage_B2()" class="fa-solid fa-cart-shopping Bopen_abclass2" id="get_product_nameB2"></i>
