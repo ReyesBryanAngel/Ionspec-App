@@ -5,10 +5,10 @@ function filterProduct(value){
     let buttons = document.querySelectorAll(".button_value");
     buttons.forEach((button) =>{
         if(value.toUpperCase() == button.innerText.toUpperCase()){
-            button.classList.add("active");
+            button.classList.add("button_active");
         }
         else{
-            button.classList.remove("active");
+            button.classList.remove("button_active");
         }
     });
     //select all cards
@@ -81,7 +81,7 @@ function filterProduct(value){
  document.addEventListener("DOMContentLoaded", () => {
      //classes for opening the product details
      var modal = document.querySelector(".abclass");
-     const overlay = document.querySelector(".overlay");
+     var overlay = document.querySelector(".overlay");
      var total_M52 = document.querySelector('#totalPrice_M52');
      var total_M56 = document.querySelector('#totalPrice_M56');
      var total_stirrer = document.querySelector('#totalPrice_stirrer');
