@@ -121,7 +121,7 @@
             <input type="search" id="search_input" placeholder="Please search an Item...">
             <button id="search">Search</button>
         </div>
-        <span id="invalid_search" class="hidden" style="color:red;">No item found</span>
+        <!--<span id="invalid_search" class="hidden" style="color:red;">No item found</span> -->
     </div>
     <div class="buttons">
         <button onclick="filterProduct('All')" class="button_value">All</button>

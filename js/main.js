@@ -1,5 +1,5 @@
 //products
-window.onload = () =>{filterProduct('All');
+window.addEventListener = () =>{filterProduct('All');
 }
 function filterProduct(value){
     let buttons = document.querySelectorAll(".button_value");
@@ -28,14 +28,14 @@ function filterProduct(value){
     document.getElementById("search").addEventListener("click", () =>{
         let searchinput = document.getElementById("search_input").value;
         let elements = document.querySelectorAll(".product_name");
-        let products_container = document.querySelectorAll(".products_container");;
+        let products_container = document.querySelectorAll(".products_container");
 
         elements.forEach((element,index) =>{
             if(element.value.includes(searchinput.toUpperCase())){
-                products_container[index].classList.remove("hidden");
+                products_container[index].classList.remove("hidden");             
             }
-            else{
-                products_container[index].classList.add("hidden");
+           else{
+                products_container[index].classList.add("hidden");       
             }
         })
     });
@@ -531,4 +531,3 @@ function showImage_B2() {
                 totalPrice_M52.classList.add("hidden");
                 totalPrice_stirrer.classList.add("hidden"); 
             });           
-
