@@ -1,3 +1,6 @@
+window.onload = () =>{
+    filterProduct('All');
+}
 //products
 function filterProduct(value){
     let buttons = document.querySelectorAll(".button_value");
@@ -37,9 +40,6 @@ function filterProduct(value){
             }
         })
     });
-}
-window.onload = () =>{
-    filterProduct('All');
 }
  
  //variables and selectors for total price function 
