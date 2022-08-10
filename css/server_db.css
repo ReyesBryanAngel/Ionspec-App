@@ -44,10 +44,23 @@ i{
     cursor: pointer;
 }
 .delete{
-    color: red;
+    background-color: #8B0000;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 .edit{
-    color: darkblue;
+    background-color: #00BFFF;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.hide_id{
+    display: none;
 }
 table{
     width: 100%;

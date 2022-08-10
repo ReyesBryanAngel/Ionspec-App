@@ -36,7 +36,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         </div>
         <table>
             <thead>
-                <th>I.D</th>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Cellphone Number</th>
@@ -53,7 +52,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             ?>
                 <tbody>
                     <tr>
-                        <td data-label="I.D"><?php echo $rows['id']; ?></td>
+                        <td class="hide_id" data-label="I.D"><?php echo $rows['id']; ?></td>
                         <td data-label="First Name"><?php echo $rows['fname']; ?></td>
                         <td data-label="Last Name"><?php echo $rows['lname']; ?></td>
                         <td data-label="Cellphone Number"><?php echo $rows['cell_number']; ?></td>
@@ -66,13 +65,13 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         <!--- EDIT FUNCTION --->
                         <form action="edit.php" method="post">
                             <input type="hidden" name="id" value="<?php echo $rows['id']; ?>">
-                            <td><input type="submit" value="EDIT"></td>
+                            <td><input type="submit" class="edit" value="EDIT"></td>
                         </form>
                         <!--- DELETE FUNCTION --->
                         <form action="delete.php" method="post" name="delete">
                             <input type="hidden" name="id" value="<?php echo $rows['id']; ?>">
                             <td>
-                                <input type="submit" name="delete" value="DELETE">
+                                <input type="submit" name="delete" class="delete" value="DELETE">
                             </td>
                         </form>
                     </tr>
