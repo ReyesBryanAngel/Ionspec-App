@@ -238,14 +238,16 @@
     </div>
     <!------Customer's Infomation PC------>
     <div class="abclass hidden" id="scroll_form">
+
         <div class="abclass_scroll">
-            <div class="close_abclass">
-                <button class="top_right">&times;</button>
-            </div>
+            <i class="fa-solid fa-xmark close_abclass"></i>
+            <i class="fa-solid fa-xmark" id="close_abclass2"></i>
             <form action="./php/order_db.php" method="post" class="form">
                 <div class="products_details">
-                    <img id="products_img">
-                    <input readonly type="text" name="productname" id="receive_product_name_pc1">
+                    <div class="product_head">
+                        <img id="products_img">
+                        <input readonly type="text" name="productname" id="receive_product_name_pc1">
+                    </div>
                     <p id="M52_text" class="hidden">M52 Ionspec Nanospec MGI medical glasses from MGI are equipped with a Germanium Stone attribute, Far Infrared (FIR), Nano Silver, tourmaline stone, and also Negative Ion embedded in its temples and frames through nanotechnology from Germany making it the only glasses with medical functions in the world. It is made of an elastic and light material with fascinating shapes and colors making these medical glasses FAVORITE for many people since they are suitable for various ages, facial shapes, genders, and other aspects.</p>
 
                     <p id="M56_text" class="hidden">M56 Ionspec Nanospec MGI Hospital Grade medical glasses from MGI are equipped with a Germanium Stone attribute, Far Infrared (FIR), Nano Silver, tourmaline stone, and also Negative Ion embedded in its temples and frames through nanotechnology from Germany making it the only glasses with medical functions in the world. IonSpec M57 medical glasses are designed for PROFESSIONALS.</p>

@@ -641,45 +641,33 @@ h1{
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.close_abclass {
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-    outline: none;
-  }
-.top_right{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 30px;
-    background-color: transparent;
-    color: black;
-    font-size: 1.5rem;
+.close_abclass{
+    float: right;
+    font-size: 1.2rem;
+    width: 50px;
+    margin-top: .3rem;
+    padding-left: 2rem;
+    cursor:pointer;
 }
-
+#close_abclass2{
+    display: none;
+}
 .products_details{
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    align-items: center;
+    margin-top: 5rem;
 }
 .products_details img{
     width: 320px;
-    margin-left: 2.5rem;
+    margin-left: 1rem;
 }
-.products_details input{
-    width: 300px;       
+.products_details input{ 
     outline: none;
     border: none;
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 2.5rem;
+    margin-left: 1rem;
 }
 .products_details img{
     width: 300px;
@@ -691,9 +679,14 @@ h1{
     max-width: 78%;
     text-align: initial;
 }
+.product_head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .abclass_content{
-    margin-top: 2rem;
-    margin: auto;
+    display: grid;
+    place-items: center;
 }
 #form_input{
     margin: .6rem;
@@ -701,10 +694,10 @@ h1{
     border-radius: 10px;
     width: 290px;
     padding: 6px;
+    margin-left: 1.5rem;
 }
 .totalPrice{
     margin: auto;
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
     width: 120px;
@@ -721,27 +714,19 @@ h1{
     font-size:1.1rem;
 }
 .quantity_increment{
-   margin-top: .8rem;
-   width: 370px;
-   margin: auto;
-   margin-top: 1rem;
+    margin-top: .5rem;
 }
- .quantity_increment > .quantity_center{
-   display: grid;
-   place-items: center;
- }
 .quantity_increment input{
-    height: 1.5rem;
+    height: 2rem;
 }
 .quantity_increment button{
-    height: 1.5rem;
+    height: 2rem;
     padding: 10px;
     width: 30px;
     font-size: 18px;
 }
-
 .abclass select{
-    margin: 1.2rem 0 0;
+    margin: .5rem 0 0;
     text-align: center;
     outline: none;
     font-size: .8rem;
@@ -773,27 +758,81 @@ h1{
     #form_input{
         width: 360px;
     }
-}
-@media(min-width:900px){
     .close_abclass{
-        left: 73.3rem;    
-        bottom:30.5rem;
-        font-size: 2rem;
+        margin-right: 0;
     }
+}
+@media(min-width:650px){
+    .products_details img{
+        width: 500px;
+    }
+    .close_abclass{
+        margin-top: .5rem;
+    }
+    .products_details input{
+        margin-right: 3rem;
+        font-size: 1.8rem;
+    }
+    #form_input{
+        width: 480px;
+    }
+    .totalPrice input{
+        font-size: 1.3rem;
+    }
+    .totalPrice span{
+        font-size: 1.3rem;
+    }
+    .abclass select{
+        font-size: 1rem;
+    }
+    #submit button{
+        font-size: 1rem;
+        padding: 7px;
+        width: 300px;
+    }
+}
+@media(min-width:750px){
+    .products_details img{
+        width: 550px;
+    }
+}
+@media(min-width:1000px){
     .abclass{
         top: 54%;
         width: 90%;
         height: 90%;
-        text-align: initial;
     }
     .abclass_scroll{
         overflow: hidden;
     }
+    .close_abclass{
+        display: none;
+    }
+    #close_abclass2{
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 8px;
+        font-size: 1.2rem;
+        cursor:pointer;
+    }
+    .abclass .form{
+        display: flex;
+        margin: 0 2rem;
+    }
     .products_details{
         margin-top: 0;
+        align-items: initial;
+    }
+    .product_head{
+        margin-left: 1.5rem;
     }
     .products_details img{
         width: 350px;
+    }
+    .products_details input{
+        margin-top: 1rem;
+        font-size: 1.5rem;
     }
     .products_details p{
         padding-top: 0;
@@ -801,16 +840,14 @@ h1{
         margin-left: 2.5rem;
     }
     .abclass_content{
-        margin-top: 0;
-    }
-    .abclass .form{
-        display: flex;
-        justify-content: space-between;
-        margin: 0 6rem 0;
+        margin-top: .5rem;
+        display: grid;
+        place-items: initial;
     }
     #form_input{
-        margin: .5rem;
+        margin: .7rem;
         padding: 6px;
+        width: 400px;
     }
     .totalPrice{
        margin-left: 1rem;
@@ -820,13 +857,14 @@ h1{
         margin-top: 1rem;
     }
     .abclass select{
+        padding: 0;
         margin-left: 1rem;
-        width: 170px;
+        width: 220px;
     }
     #submit button{
         margin-left: 1rem;
-        margin-top: 2rem;
-        width: 14rem;
+        margin-top: 5rem;
+        width: 25rem;
     }
 }
 

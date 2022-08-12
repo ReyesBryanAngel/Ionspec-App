@@ -132,6 +132,16 @@ function filterProduct(value){
          fourE.value = 4875;
          oneN.value = 1950;
      });
+     document.getElementById("close_abclass2").addEventListener("click", () => {
+        modal.classList.remove('active');
+        overlay.classList.remove('active');
+        orderQuantity_mobile.value = 1;
+        threeN.value = 3900;
+        sevenE.value = 7800;
+        fourE.value = 4875;
+        oneN.value = 1950;
+    });
+    
      overlay.addEventListener("click", () => {
          modal.classList.remove('active');
          overlay.classList.remove('active');
